@@ -1,0 +1,40 @@
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        width: 720px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .wrapper img {
+        width: 720px;
+        height: 460px;
+        background-image: url("1.png");
+        z-index: 1;
+        position: absolute;
+        overflow: hidden;
+    }
+    .wrapper iframe {
+        position: relative;
+        left: 230px;
+        top: 60;
+        z-index: 0;
+        width: 190;
+    }
+    .wrapper img:hover{
+        z-index: 0;
+    }
+    .wrapper iframe:hover{
+        z-index: 1;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <img src="1.png" alt="">
+        <iframe src="https://www.youtube.com/embed/yuTUIG5FRHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
