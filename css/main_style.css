@@ -1,6 +1,6 @@
 svg {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     fill: #DF69CE;
     transition: 0.3s;
 }
@@ -76,8 +76,8 @@ color-pink {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 540px;
-    height: 130px;
+    width: 720px;
+    height: 200px;
     border-radius: 65px;
     background: url(res/img/player_bg.jpg);
 }
@@ -93,13 +93,13 @@ color-pink {
 .music-page .content-wrapper .audio-player .play {
     display: block;
     position: relative;
-    top: 30px;
+    top: 55px;
     left: 50px;
 }
 
 .music-page .content-wrapper .audio-player .pause {
     display: block;
     position: relative;
-    top: -45px;
-    left: 400px;
+    top: -30px;
+    left: 580px;
 }
