@@ -7,3 +7,14 @@ body {
 .bmo-message-box {
     width: 100%;
 }
+
+.back {
+    position: absolute;
+    display: block;
+    width: 578px;
+    height: 210px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 68px;
+    top: 81px;
+}
