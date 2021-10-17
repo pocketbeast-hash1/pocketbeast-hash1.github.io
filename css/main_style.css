@@ -59,3 +59,22 @@ color-pink {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
 }
+.music-page .content-wrapper .audio-player {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 540px;
+    height: 130px;
+    border-radius: 65px;
+    background: url(res/img/player_bg.jpg);
+}
+.music-page .content-wrapper .audio-player .play {
+    position: relative;
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+    left: 200px;
+}

@@ -22,6 +22,15 @@
         <div class="content-wrapper">
             <p>Ну что, дослушала его, <color-pink>клубничка в сахаре</color-pink>?</p>
             <p>Хорошо! Тогда включай эту <color-pink>шикарную</color-pink> подборку и пойдем со мной! Я хочу показать тебе <color-pink>кое-что</color-pink>. Это говорю я, королева вампиров <color-pink>Марселин</color-pink>!</p>
+            <audio src="res/mus/Marcy-mus.mp3" id="player">Ой! В твоем браузере нельзя проигрывать песни(((</audio>
+            <div class="audio-player">
+                <div> 
+                    <button class="play" onclick="document.getElementById('player').play()">Play</button> 
+                    <button class="pause" onclick="document.getElementById('player').pause()">Pause</button> 
+                    <button class="vol-raise" onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                    <button class="vol-down" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+                </div>
+            </div>
         </div>
     </div>
 </body>
