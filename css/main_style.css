@@ -7,14 +7,17 @@ body {
 .bmo-message-box {
     width: 100%;
 }
-
-.back {
-    position: absolute;
-    display: block;
+.bmo-message-box .back-holder .back {
+    position: relative;
     width: 578px;
     height: 210px;
+    line-height: 210px;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.5);
-    left: 68px;
-    top: 81px;
+    margin: 0 auto;
+
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    font-family: 'Amatic SC', cursive;
 }
