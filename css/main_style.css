@@ -1,11 +1,21 @@
 body {
+    --page-height: 1800px;
+
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: white;
 }
+color-pink {
+    color: #DF69CE;
+}
 
+
+/* BMO-Page */
 .bmo-message-box {
     width: 100%;
+    height: var(--page-height);
 }
 .bmo-message-box .video-holder iframe{
     position: relative;
@@ -28,4 +38,24 @@ body {
     color: white;
     font-size: 62px;
     font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+/* MUSIC-Page */
+.music-page {
+    width: 100%;
+    height: var(--page-height);
+}
+.music-page .content-wrapper {
+    width: 720px;
+    height: var(--page-height);
+    margin: 0 auto;
+}
+.music-page .content-wrapper p {
+    position: relative;
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
