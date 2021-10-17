@@ -7,6 +7,14 @@ body {
 .bmo-message-box {
     width: 100%;
 }
+.bmo-message-box .video-holder iframe{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 230px;
+    height: 200px;
+}
 .bmo-message-box .back-holder .back {
     position: relative;
     width: 578px;
