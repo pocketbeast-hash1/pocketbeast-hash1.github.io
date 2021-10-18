@@ -186,6 +186,7 @@ color-pink {
     width: 250px;
     top: 160px;
     right: 250px;
+    border-radius: 50px;
 }
 .sky-page .gifs-box .cloud-right {
     position: relative;
@@ -199,4 +200,5 @@ color-pink {
     width: 250px;
     top: 150px;
     left: 230px;
+    border-radius: 50px;
 }
