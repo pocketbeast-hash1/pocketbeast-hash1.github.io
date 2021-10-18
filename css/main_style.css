@@ -58,6 +58,7 @@ color-pink {
 .music-page {
     width: 100%;
     height: var(--page-height);
+    padding-bottom: 800px;
 }
 .music-page .content-wrapper {
     width: 720px;
@@ -107,5 +108,95 @@ color-pink {
 /* SKY-Page */
 .sky-page {
     width: 100%;
-    height: var(--page-height);
+    background: linear-gradient(180deg, #FFFFFF 0%, #87CEEB 15%);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1000px;
+}
+.sky-page .messages-box {
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.sky-page .messages-box .cloud-1 svg {
+    fill: rgba(0, 0, 0, 0.5);
+    width: 720px;
+    height: 520px;
+}
+.sky-page .messages-box .cloud-1 {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+}
+.sky-page .messages-box .cloud-1 p {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+    top: 100px;
+    left: 230px;
+    text-align: center;
+}
+.sky-page .messages-box .cloud-2 svg {
+    fill: rgba(255, 255, 255, 0.7);
+    width: 720px;
+    height: 520px;
+}
+.sky-page .messages-box .cloud-2 {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+}
+.sky-page .messages-box .cloud-2 p {
+    position: absolute;
+    color: #000;
+    font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    top: 100px;
+    right: 230px;
+}
+.sky-page .gifs-box {
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.sky-page .gifs-box .cloud-left svg, .sky-page .gifs-box .cloud-right svg {
+    fill: rgba(255, 255, 255, 0.7);
+    width: 720px;
+    height: 520px;
+}
+.sky-page .gifs-box .cloud-left {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+}
+.sky-page .gifs-box .cloud-left img {
+    position: absolute;
+    width: 250px;
+    top: 160px;
+    right: 250px;
+}
+.sky-page .gifs-box .cloud-right {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+}
+.sky-page .gifs-box .cloud-right img {
+    position: absolute;
+    width: 250px;
+    top: 150px;
+    left: 230px;
 }
