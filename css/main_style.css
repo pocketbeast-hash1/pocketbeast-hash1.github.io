@@ -23,7 +23,15 @@ body {
 color-pink {
     color: #DF69CE;
 }
-
+color-g {
+    color: #76A35B;
+}
+color-r {
+    color: #B12B00;
+}
+color-b {
+    color: #87CEEB;
+}
 
 /* BMO-Page */
 .bmo-message-box {
@@ -206,8 +214,63 @@ color-pink {
 /* PHOTOS-Page */
 .photos-page {
     width: 100%;
-    height: var(--page-height);
     display: flex;
     flex-direction: column;
     background: linear-gradient(180deg, #87CEEB 0%, #76A35B 12.5%);
+}
+.photos-page p {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 96px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+.photos-page .wrapper {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.photos-page .wrapper .messages-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+}
+.photos-page .wrapper .messages-box .right-m {
+    margin-left: auto;
+    color: #322D52;
+    width: fit-content;
+    height: fit-content;
+    background-color: #DF69CE;
+    border-radius: 30px;
+    padding: 20px 50px 20px 50px;
+}
+.photos-page .wrapper .messages-box .left-m {
+    margin-right: auto;
+    color: #DF69CE;
+    width: fit-content;
+    height: fit-content;
+    background-color: #322D52;
+    border-radius: 30px;
+    padding: 20px 50px 20px 50px;
+}
+.photos-page .photo-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.photos-page .photo-holder img {
+    width: 80%;
+}
+.photos-page .photo-holder .img-right {
+    display: block;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.photos-page .photo-holder .img-left {
+    display: block;
+    margin-right: auto;
+    margin-top: 100px;
 }
