@@ -202,3 +202,12 @@ color-pink {
     left: 230px;
     border-radius: 50px;
 }
+
+/* PHOTOS-Page */
+.photos-page {
+    width: 100%;
+    height: var(--page-height);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #87CEEB 0%, #76A35B 12.5%);
+}
