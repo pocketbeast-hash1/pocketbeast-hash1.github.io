@@ -195,6 +195,7 @@ color-y {
 .sky-page .gifs-box .cloud-left img {
     position: absolute;
     width: 250px;
+    height: 250px;
     top: 160px;
     right: 250px;
     border-radius: 50px;
