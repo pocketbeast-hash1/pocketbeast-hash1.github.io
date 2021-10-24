@@ -337,6 +337,7 @@ color-y {
     bottom: 290px;
     padding-top: 30px;
     margin: auto;
+    border-radius: 50px;
 }
 /* SLIDER-Page */
 .slider-page {
